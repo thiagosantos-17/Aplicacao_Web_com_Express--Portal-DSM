@@ -29,7 +29,7 @@ Com base na implementação, o projeto organiza-se da seguinte forma:
 
 ## 🛠️ Como Executar
 
-1. Acesse em: `http://localhost:3000`.
+1. Acesse em: `https://portal-dsm.vercel.app/`.
 
 ---
 *Projeto desenvolvido para fins acadêmicos - Fatec / Centro Paula Souza.*
