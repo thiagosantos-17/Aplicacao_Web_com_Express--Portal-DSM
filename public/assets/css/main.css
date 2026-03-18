@@ -1,0 +1,107 @@
+/* @import é uma regra do CSS usada para carregar arquivos de estilo externos dentro de uma folha de estilos */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+body {
+  display: flex;
+  background-color: #76383d;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  font-family: Roboto, serif;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.card {
+  background-color: #fefded;
+  border-radius: 10px;
+  max-width: 800px;
+  min-width: 800px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 8);
+  padding: 2rem;
+}
+
+.course-text {
+  line-height: 1.65rem;
+  text-align: justify;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-fatec {
+  width: 162px;
+  height: 62px;
+}
+
+.logo-dsm {
+  width: 357px;
+  height: 119px;
+}
+
+.logo-cps {
+  width: 192px;
+  height: 128px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.btn-link {
+  display: inline-flex;
+  padding: 0.7rem 1rem;
+  background-color: #76383d;
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 10px;
+  border: 0;
+}
+
+.btn-link:hover {
+  background-color: #6e2930;
+}
+
+.btn-secondary {
+  background-color: #4b5563;
+}
+
+.btn-secondary:hover {
+  background-color: #374154;
+}
+
+.aut-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.aut-form label {
+  font-weight: 500;
+}
+
+.aut-form input {
+  padding: 0.7rem 0.8rem;
+  border-radius: 0.5rem;
+  border: 0.0625rem solid #cbd5e1;
+  font: inherit;
+}
+
+.link{
+  color: #6e2930;
+  text-decoration: none;
+  font-weight: 700px;
+
+}
